@@ -1,5 +1,8 @@
 {
-  "name": "my-app",
+  "name": "try-create-react-app",
+  "author": {
+    "name": "waicxy"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
