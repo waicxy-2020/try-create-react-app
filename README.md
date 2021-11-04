@@ -31,3 +31,15 @@
 
 ### 开始应用
 拷贝棋盘样式代码，布局js代码
+
+### 知识点
+1. 函数组件： 组件中只有一个`render`方法，不包含`state`，使用函数组件更简单，不用定义继承于`React.Component`的类，可以定义一个函数，该函数接收`props`作为参数，并返回需要渲染的元素
+   ```javascript
+   function Square(props) {
+      return (
+         <button className="square" onClick={props.onClick}>
+           {props.value}
+         </button>
+      )
+   }
+   ```
